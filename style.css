@@ -75,6 +75,7 @@ div img{
     }
     .right button{
         font-size: 15px;
+        display: none;
     }
     div img{
         height: 200px;
