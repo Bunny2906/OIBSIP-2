@@ -30,7 +30,3 @@ setInterval(()=>{
     carouselimg.src=images[currIndex];
     console.log(currIndex);
 },3000);
-var x = window.matchMedia("(max-width: 480px)");
-if(x.matches){
-    html.style.zoom = "28%";
-}
