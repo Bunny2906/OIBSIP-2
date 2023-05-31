@@ -1,0 +1,84 @@
+*{
+    font-family: 'Work Sans';
+}
+body{
+    background: linear-gradient(135deg,#e4b7c5,#7fcb84);
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.left{
+    width: 50%;
+    margin: 10px;
+}
+.left h1{
+    font-size: 45px;
+    font-weight: 900;
+}
+h3 {
+    text-align: justify;
+    font-size: 25px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right button{
+    background: transparent;
+    border: 0.5px solid black;
+    font-size: 20px;
+    margin: 2px;
+}
+div img{
+    height: 400px;
+    width: 400px;
+    flex: 1;
+    border-radius: 7px;
+}
+.biography{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.biography h1{
+    font-size: 35px;
+    background: linear-gradient(120deg,#c48850,#66dada);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.biography p{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+@media(max-width:480px){
+    .info{
+        flex-direction: column;
+    }
+    .left{
+        width: 90%;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .right{
+        width: 88%;
+    }
+    .right button{
+        font-size: 15px;
+    }
+    div img{
+        height: 200px;
+        width: 90%;
+        flex: 1;
+    }
+}
